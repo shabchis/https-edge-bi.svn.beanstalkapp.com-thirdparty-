@@ -30,6 +30,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>GotDotNet.XPath.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,7 +74,9 @@
     <Compile Include="Source\XPathReaderException.cs" />
     <Compile Include="Source\xpathscanner.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="GotDotNet.XPath.snk" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Compiled\GotDotNet.XPath.dll" />
   </ItemGroup>
