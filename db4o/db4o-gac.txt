@@ -1,0 +1,4 @@
+Db4objects.Db4o.dll
+Db4objects.Db4o.CS.dll
+Db4objects.Db4o.Linq.dll
+Db4objects.Db4o.NativeQueries.dll
